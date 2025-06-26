@@ -17,28 +17,32 @@
 ```
 📁 src/
 ├── 📁 app/                 # Next.js App Router
+│    ├── 📄 globals.css     # Глобальные стили
 │    ├── 📄 layout.tsx      # Корневой layout
+│    ├── 📄 loading.tsx     # Loading UI
 │    ├── 📄 page.tsx        # Главная страница
 │    ├── 📄 providers.tsx   # React Query провайдеры
-│    ├── 🎨 globals.css     # Глобальные стили
 │    └── 📁 movie/
 │         └── 📁 [id]/
 │              └── 📄 page.tsx # Страница фильма
-├── 📁 widgets/            # Составные блоки UI
-│    ├── 📁 header/         # Шапка сайта
-│    └── 📁 movies-list/    # Список фильмов
-├── 📁 features/           # Функциональности
-│    ├── 📁 search/         # Поиск фильмов
-│    └── 📁 pagination/     # Пагинация
-├── 📁 entities/           # Бизнес-сущности
-│    └── 📁 movie/          # Сущность фильма
-│         └── 📁 ui/        # UI компоненты фильма
-└── 📁 shared/             # Переиспользуемые ресурсы
-├── 📁 api/           # API слой
-├── 📁 types/         # TypeScript типы
-├── 📁 ui/            # Общие UI компоненты
-├── 📁 utils/         # Утилиты
-└── 📁 store/         # Глобальное состояние
+├── 📁 entities/            # Бизнес-сущности
+│    └── 📁 movie/
+│         └── 📁 ui/
+│              ├── 📄 movie-card.tsx     # Карточка фильма
+│              └── 📄 movie-details.tsx  # Детали фильма
+├── 📁 features/            # Функциональности
+│    ├── 📁 pagination/     # Пагинация
+│    └── 📁 search/         # Поиск фильмов
+├── 📁 shared/              # Переиспользуемые ресурсы
+│    ├── 📁 api/            # API слой
+│    ├── 📁 store/          # Глобальное состояние
+│    ├── 📁 types/          # TypeScript типы
+│    ├── 📁 ui/             # Общие UI компоненты
+│    └── 📁 utils/          # Утилиты
+└── 📁 widgets/             # Составные блоки UI
+     ├── 📁 header/         # Шапка сайта
+     ├── 📁 hero-banner/    # Главный баннер с трейлерами
+     └── 📁 movies-list/    # Список фильмов
 ```
 
 ## ✨ Функциональность
