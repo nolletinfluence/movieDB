@@ -14,7 +14,7 @@
 - **TMDB API** - The Movie Database API для данных о фильмах
 
 ## 📁 Структура проекта (FSD)
-
+```
 📁 src/
 ├── 📁 app/                 # Next.js App Router
 │    ├── 📄 layout.tsx      # Корневой layout
@@ -39,6 +39,7 @@
 ├── 📁 ui/            # Общие UI компоненты
 ├── 📁 utils/         # Утилиты
 └── 📁 store/         # Глобальное состояние
+```
 
 ## ✨ Функциональность
 
