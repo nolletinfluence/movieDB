@@ -15,32 +15,30 @@
 
 ## 📁 Структура проекта (FSD)
 
-
-src/
-├── app/                 # Next.js App Router
-│   ├── layout.tsx      # Корневой layout
-│   ├── page.tsx        # Главная страница
-│   ├── providers.tsx   # React Query провайдеры
-│   ├── globals.css     # Глобальные стили
-│   └── movie/
-│       └── [id]/
-│           └── page.tsx # Страница фильма
-├── widgets/            # Составные блоки UI
-│   ├── header/         # Шапка сайта
-│   └── movies-list/    # Список фильмов
-├── features/           # Функциональности
-│   ├── search/         # Поиск фильмов
-│   └── pagination/     # Пагинация
-├── entities/           # Бизнес-сущности
-│   └── movie/          # Сущность фильма
-│       └── ui/         # UI компоненты фильма
-└── shared/             # Переиспользуемые ресурсы
-    ├── api/           # API слой
-    ├── types/         # TypeScript типы
-    ├── ui/            # Общие UI компоненты
-    ├── utils/         # Утилиты
-    └── store/         # Глобальное состояние
-
+📁 src/
+├── 📁 app/                 # Next.js App Router
+│    ├── 📄 layout.tsx      # Корневой layout
+│    ├── 📄 page.tsx        # Главная страница
+│    ├── 📄 providers.tsx   # React Query провайдеры
+│    ├── 🎨 globals.css     # Глобальные стили
+│    └── 📁 movie/
+│         └── 📁 [id]/
+│              └── 📄 page.tsx # Страница фильма
+├── 📁 widgets/            # Составные блоки UI
+│    ├── 📁 header/         # Шапка сайта
+│    └── 📁 movies-list/    # Список фильмов
+├── 📁 features/           # Функциональности
+│    ├── 📁 search/         # Поиск фильмов
+│    └── 📁 pagination/     # Пагинация
+├── 📁 entities/           # Бизнес-сущности
+│    └── 📁 movie/          # Сущность фильма
+│         └── 📁 ui/        # UI компоненты фильма
+└── 📁 shared/             # Переиспользуемые ресурсы
+├── 📁 api/           # API слой
+├── 📁 types/         # TypeScript типы
+├── 📁 ui/            # Общие UI компоненты
+├── 📁 utils/         # Утилиты
+└── 📁 store/         # Глобальное состояние
 
 ## ✨ Функциональность
 
